@@ -6,7 +6,8 @@
     "guesthouse": "src/index.js"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha test/tests.js"
+    "test": "node_modules/.bin/mocha test/tests.js",
+    "eslint": "node_modules/.bin/eslint src/index.js"
   },
   "repository": {
     "type": "git",
