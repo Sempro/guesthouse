@@ -6,7 +6,6 @@
     "guesthouse": "src/index.js"
   },
   "scripts": {
-    "pretest": "node_modules/.bin/eslint src/index.js",
     "test": "node_modules/.bin/mocha test/tests.js"
   },
   "repository": {
