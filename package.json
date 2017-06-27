@@ -1,0 +1,40 @@
+{
+  "name": "guesthouse",
+  "version": "1.0.0",
+  "description": "Initialize Sempro JS and CSS style guides",
+  "bin": {
+    "guesthouse": "src/index.js"
+  },
+  "scripts": {
+    "pretest": "node_modules/.bin/eslint src/index.js",
+    "test": "node_modules/.bin/mocha test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sempro/guesthouse"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Sempro AS",
+    "email": "packages@sempro.no",
+    "url": "http://www.sempro.no"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sempro/guesthouse/issues"
+  },
+  "homepage": "https://github.com/Sempro/guesthouse",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.10.0",
+    "execa": "^0.7.0",
+    "ora": "^1.3.0"
+  }
+}
