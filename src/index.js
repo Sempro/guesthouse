@@ -2,6 +2,7 @@
 
 'use strict';
 
+const pckgJson = require('../package.json');
 const program = require('commander');
 const chalk = require('chalk');
 const execa = require('execa');
@@ -17,6 +18,8 @@ const modules = [
   'stylelint-config-standard',
   'stylelint-order',
 ];
+
+program.version(pckgJson.version, '-v, --version');
 
 program
   .command('init')
