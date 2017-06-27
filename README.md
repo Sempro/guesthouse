@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/Sempro/guesthouse/master/guesthose.gif" alt="guesthouse">
+# <img src="https://raw.githubusercontent.com/Sempro/guesthouse/master/guesthouse.gif" alt="guesthouse">
 
 > Initialize Sempro JS and CSS style guides
 
