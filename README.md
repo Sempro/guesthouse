@@ -2,7 +2,7 @@
 
 > Initialize Sempro JS and CSS style guides
 
-[![travis](https://img.shields.io/travis/sempro/guesthouse/master.svg?style=flat-square)](https://travis-ci.org/sempro/guesthouse/builds)
+[![travis](https://img.shields.io/travis/Sempro/guesthouse/master.svg?style=flat-square)](https://travis-ci.org/Sempro/guesthouse/builds)
 [![npm version](https://img.shields.io/npm/v/guesthouse.svg?style=flat-square)](http://badge.fury.io/js/guesthouse)
 [![npm downloads](https://img.shields.io/npm/dm/guesthouse.svg?style=flat-square)](http://badge.fury.io/js/guesthouse)
 [![npm license](https://img.shields.io/npm/l/guesthouse.svg?style=flat-square)](http://badge.fury.io/js/guesthouse)
