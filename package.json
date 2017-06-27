@@ -1,6 +1,6 @@
 {
   "name": "guesthouse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Initialize Sempro JS and CSS style guides",
   "bin": {
     "guesthouse": "src/index.js"
