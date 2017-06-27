@@ -54,7 +54,7 @@ program
         delete pckg.scripts.test;
         pckg.scripts.test = 'npm run eslint && npm run stylelint';
 
-        fs.writeFileSync('package.jsonjson', JSON.stringify(pckg, null, 2));
+        fs.writeFileSync('package.json', JSON.stringify(pckg, null, 2));
 
         console.log(chalk.green('Successfully installed'));
       })
