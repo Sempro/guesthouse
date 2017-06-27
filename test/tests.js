@@ -19,7 +19,7 @@ describe('Guesthouse Test Suite', () => {
   });
 
   it('should create .editorconfig', () => {
-    expect(files.indexOf('.editorconfig') === -1).to.eql(false);
+    expect(files.indexOf('.editorconfig') === -1).to.eql(true);
   });
 
   it('should create .eslintrc.js', () => {
