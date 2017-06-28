@@ -6,4 +6,8 @@ module.exports = {
   plugins: [
     'import',
   ],
+  env: {
+    browser: true,
+    node: true,
+  }
 };
