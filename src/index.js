@@ -1,7 +1,5 @@
 #! /usr/bin/env node
 
-'use strict';
-
 const pckgJson = require('../package.json');
 const program = require('commander');
 const chalk = require('chalk');
